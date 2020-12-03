@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+ul {
+  width: 100%;
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top: 25px; /*делаем отступ сверху*/
+}
+.menu {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background: #30a8e6; /*добавляем фон к пункту меню*/
+  color: #fff; /*меняем цвет ссылок*/
+  padding: 10px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  border-radius: 4px; /*добавляем скругление*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+.menu:hover {
+  background: #1c85bb; /*добавляем эффект при наведении*/
+}
+li {
+  float: left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right: 5px; /*Добавляем отступ у пунктов меню*/
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+  background-color: #1c85bb;
+}
+.up {
+  max-width: 30px;
+  margin-left: 50%;
+  margin-top: 2px;
+}
+p {
+  display: inline;
+}
